@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family:"dwarven";
+    src: url(../fonts/DwarvenAxe\ BB\ W00\ Regular.ttf);
+}
+
+::-webkit-scrollbar{
+    background:black;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #676767;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:#949494;
+}
+::-webkit-scrollbar-track{
+    background: #424242;
+}
+
+body{
+    background-color: #000000;
+}
+
+.header{
+    background-color: #290404;
+}
+.logo{
+    width: 200px;
+    height: 70px;
+    float: left;
+    position:absolute;
+    object-fit: contain;
+}
+.title{
+    font-family: "dwarven";
+    color: #dba85b;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 4.5px;
+    border-bottom: 5px solid #dba85b;
+}
+
+section{
+    font-family: "dwarven";
+    color:#dba85b;
+    background-image: url(../background/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    padding-right: 30px;
+    padding-top: 450px;
+    padding-bottom: 200px;
+}
+#personagem{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 100px;
+}
+.formconteiner{
+    max-width: 600px;
+    background-color: #202020bb;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 44px;
+}
+.titulo2{
+    text-align: justify;
+}
+.mb{
+    margin-bottom: 25px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color: white;
+    background-color:#dba85b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h3{
+    font-family: "dwarven";
+    font-size: 64px;
+    color:#dba85b;
+    margin-bottom: 100px;
+    margin-left: 0px;
+    
+}
+.conteudo{
+    text-align: justify;
+    font-family: "dwarven";
+    font-size: 54px;
+    color:#dba85b;
+    margin-left: 200px;
+    margin-right: 200px;
+    max-width: 2000px;
+}
+.imgtext{
+    width: 500px;
+    height: 300px;
+    border: 3px solid #3c0704;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 178px;
+    float:left;
+    position: relative;
+}
+
+.imgtext2{
+    width: 500px;
+    height: 300px;
+    border: 3px solid #3c0704;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: auto;
+    float: right;
+    position: relative;
+}
+
+#footer{
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    height: 40px;
+    background-color:#3c0704;
+    border-top: 5px solid #dba85b;
+
+    color:#dba85b ;
+    font-size: 32px;
+    font-family: "dwarven";
+    text-align: center;
+    clear:both ;
+}
+
+.link{
+    color: #dba85b;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link:visited{
+    color: #dba85b;
+    text-decoration: none;
+}
